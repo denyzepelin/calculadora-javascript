@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="apps">
+        <div class="calculadora">
+            <input type="text" id="display"  readonly >
+            <div id="functionsNumbers">
+                <button class="operetor-keys" onclick="Appendtodisplay('-')">-</button>
+                <button onclick="Appendtodisplay(1)">1</button>
+                <button onclick="Appendtodisplay(2)">2</button>
+                <button onclick="Appendtodisplay(2)">3</button>
+                <button class="operetor-keys" onclick="Appendtodisplay('+')">+</button>
+                <button onclick="Appendtodisplay(4)">4</button>
+                <button onclick="Appendtodisplay(5)">5</button>
+                <button onclick="Appendtodisplay(6)">6</button>
+                <button class="operetor-keys" onclick="Appendtodisplay('/')">/</button>
+                <button onclick="Appendtodisplay(7)">7</button>
+                <button onclick="Appendtodisplay(8)">8</button>
+                <button onclick="Appendtodisplay(9)">9</button>
+                <button class="operetor-keys" onclick="Appendtodisplay('*')">*</button>
+                <button onclick="Appendtodisplay(0)">0</button>
+                <button onclick="Appendtodisplay('.')">.</button>
+                <button onclick="InnerResult()">=</button>
+                <button class="operetor-keys" onclick="ClearDisplay('c')">C</button>
+            </div>
+        </div>
+        <div class="results">
+            <div><h1>RESULTS:</h1></div>
+            
+        <div id="results">
+
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

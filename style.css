@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(255, 104, 104);
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh; 
+}
+.apps{
+    display: flex;
+    gap: 1rem
+    ;
+    justify-content: center;
+    width: 90rem;
+}
+#display{
+    background-color: rgb(255, 255, 255);
+    cursor:default;
+    max-width:22rem;
+    margin-bottom: 10px;
+    border: none;
+    padding: 1rem 0px;
+    border-radius: 15px;
+    text-align: right;
+    font-size: 3rem;
+    overflow-y: scroll;
+    border:solid 3px black;
+    /* box-shadow:2px 2px 0px w; */
+}
+.calculadora{
+     padding: 0.65rem;
+    border-radius:15px;
+    margin: 0;
+        background-color: rgb(121, 123, 255);
+        border: solid 2px rgb(0, 0, 0);
+}
+#functionsNumbers{    
+    display: flex;
+    width: 22rem;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    max-width: 5rem;
+    min-width: 5rem;
+    height: 5rem;
+    font-size: 3.5rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow:  0px 2px 0px rgba(0, 0, 0, 0.705);
+}
+.operetor-keys{
+    background-color: rgb(255, 208, 0);
+    color: black;
+}
+#results{
+    padding: 0px;
+    border: 0;
+width: 100%;
+overflow: auto;
+    max-height: 30rem;
+}
+#results p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: 4rem; */
+    text-align: right;
+    font-size: 1.5rem;
+    margin: auto;
+border-bottom: solid 0.5px rgb(143, 143, 143);
+width: 90%;
+}
+.results{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(206, 255, 161);
+    width:33rem;
+    border-radius: 2rem;
+}
+.results h1{
+    padding: 2rem 1rem;
+    border-radius: 2rem 2rem 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 0%;
+background-color: rgb(0, 0, 0);
+}
+.x{
+    color: rgba(0, 0, 0, 0.459);
+}
